@@ -1,0 +1,12 @@
+name: InteractivePets
+version: '1.0-SNAPSHOT'
+main: ru.florestdev.interactivePets.InteractivePets
+api-version: '1.21'
+commands:
+  pet:
+    permission: interactivepets.pet
+    usage: /pet <type (dog/cat)> <name>
+
+permissions:
+  interactivepets.pet:
+    default: true
